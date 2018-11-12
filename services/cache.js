@@ -44,6 +44,7 @@ mongoose.Query.prototype.exec = async function() {
 	return result;
 }
 
+//exports clearHash functionality to clearCache middleware file
 module.exports = {
 	clearHash(hashKey) {
 		console.log("clearing hash")
